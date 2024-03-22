@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=MonteCarlo&display=swap');
+h4{
+    font-family: $font-alumni;
+    font-size: $xx-large;
+    font-weight: $font-thin;
+}
+span{
+    font-family: $font-alumni;  
+    font-size: $large;
+}
+p{
+    font-family: $font-josefin;
+    font-weight: $font-bold;
+    font-size: $large;
+    color:$custom-tercero;
+
+}

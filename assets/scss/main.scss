@@ -1,0 +1,18 @@
+// Required
+@import '../vendors/bootstrap/scss/functions';
+@import "../vendors/bootstrap/scss/variables";
+@import "../vendors/bootstrap/scss/variables-dark";
+//1. abstracts
+@import './abstracts/variables',
+'./abstracts/custom_bootstrap';
+//2. vendor
+@import '../vendors/bootstrap/scss/bootstrap.scss';
+//3. base
+@import 'base/base','base/reset','base/typography';
+//4. layout
+@import 'layout/header','layout/navbar','layout/main','layout/formulario';
+//5. components
+@import 'components/buttons';
+
+//6. pages
+//7. themes
